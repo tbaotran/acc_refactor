@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: #e6fcde;
   background: #2d2b30;
 }
 
@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #ffcc00;
 }
 
 a:hover {
-  color: #999;
+  color: #e6fcde;
 }
 
 /* Section Styles */
@@ -95,11 +95,11 @@ header .name{
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #ffecdb;
   clear: both;
 }
 .card:hover {
-  border-color: #96731A;
+  border-color: #ffcc00;
 }
 
 
@@ -120,7 +120,7 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #ffecdb;
   margin-top: 10px;
 }
 
