@@ -21,6 +21,7 @@ a {
 
 a:hover {
   color: #e6fcde;
+  color: #60FB00;
 }
 
 /* Section Styles */
@@ -46,7 +47,6 @@ a:hover {
 .nav .name {
   display: block;
   margin-right: auto;
-  color: white;
   letter-spacing: 5px;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #60FB00;
 }
 
 header {
