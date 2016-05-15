@@ -63,17 +63,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
-}
-
-.tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
 }
 
 .name{
@@ -83,11 +77,23 @@ header {
 header .name{
   font-size: 3em;
 }
+
+.tag {
+  color: #2d2b30;
+  padding: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 30px 0 10px;
+}
+
 .tagline {
   font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #781125
+  padding: 10px 0 20px;
+  text-transform: lowercase;
+  color: #781125;
+  font-size: 2.5em;
+  margin: 10px;
 }
 
 .card {
@@ -154,18 +160,6 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-
-a.twitter {
-  background-image: url(../img/twitter-32.png);
-}
-
-a.youtube {
-  background-image: url(../img/youtube-32.png);
-}
-
-a.spotify {
-  background-image: url(../img/spotify-32.png);
 }
 
 a.social:hover {
