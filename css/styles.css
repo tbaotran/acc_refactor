@@ -20,7 +20,6 @@ a {
 }
 
 a:hover {
-  color: #e6fcde;
   color: #60FB00;
 }
 
@@ -59,7 +58,7 @@ a:hover {
 }
 
 .nav a:hover {
-  color: #60FB00;
+  color: #ffecdb;
 }
 
 header {
