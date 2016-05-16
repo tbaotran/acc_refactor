@@ -10,37 +10,59 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <nav role="navigation" class="main-nav">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="#">Tour</a></li>
         <li><a href="survey.html">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
     <header role="banner">
       <h1 class="tag">Accessible Frog</h1>
       <h2 class="tagline">We make awesome music</h2>
     </header>
 
-    <main >
+    <main role="main">
       <div class="card">
-        <div class="flex">
+        <div class="flex">        
+      <table>
+        <caption>          
           <img class="pick" src= "img/guitar_pick.png" alt="">
-          <p class= "heading">Tour Dates</p>
+          <h1 class="heading">Tour Dates</h1>
           <img class="pick" src= "img/guitar_pick.png" alt="">
-          <pre>
-                Date                             Venue                             Location
-                Mar 10 - 12                 The Warfield                  San Francisco, CA
-                Mar 20 - 23                 Pepsi Center                  Denver, CO
-                Apr 2 - 4                      Beacon Theatre             New York City, NY
-                Apr 10                         Paramount Theatre      Seattle, WA
-          </pre>
+        </caption>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Venue</th>
+          <th scope="col">Location</th>         
+        </tr>
+        <tr>
+          <td>Mar 10 - 12</td>
+          <td>The Warfield</td>
+          <td>San Francisco, CA</td>          
+        </tr>
+        <tr>
+          <td>Mar 20 - 23</td>
+          <td>Pepsi Center</td>
+          <td>Denver, CO</td>         
+        </tr>
+        <tr>
+          <td>Apr 2 - 4</td>
+          <td>Beacon Theatre</td>
+          <td>New York City, NY</td>          
+        </tr>
+        <tr>
+          <td>Apr 10 </td>
+          <td>Paramount Theatre</td>
+          <td>Seattle, WA</td>          
+        </tr>                       
+      </table>
         </div>
       </div>
     </main>
     
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social"><img src="img/twitter-32.png" alt="Twitter logo"></a></li>
         <li><a href="#" class="social"><img src="img/youtube-32.png" alt="YouTube logo"></a></li>
