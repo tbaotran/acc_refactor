@@ -11,6 +11,10 @@ form {
   display: inline-block;
 }
 
+fieldset {
+  border: none;
+}
+
 .container{
   text-align: center;
 }
