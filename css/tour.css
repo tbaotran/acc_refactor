@@ -1,7 +1,10 @@
 /* Tour page styles */
-
-pre {
-  font-family: 'Open Sans', sans-serif;
+table {
+    width: 100%;
+    padding-left: 10%;
+}
+th {
+  color: #ffcc00;
 }
 
 .heading{
