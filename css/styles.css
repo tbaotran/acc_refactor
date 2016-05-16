@@ -159,12 +159,12 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: 1;
   transition: all .5s;
 }
 
 a.social:hover {
-  opacity: 1;
+  opacity: .4;
 }
 .clearfix {
   clear: both;
