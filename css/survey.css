@@ -54,7 +54,8 @@ button:hover {
   cursor: pointer;
 }
 
-#email-signup {
+#email-signup,
+#select-name {
   display: none;
 }
 
