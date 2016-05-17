@@ -54,8 +54,7 @@ button:hover {
   cursor: pointer;
 }
 
-#email-signup,
-#band-members {
+#email-signup {
   display: none;
 }
 

@@ -91,7 +91,6 @@ header .name{
   font-weight: 600;
   padding: 10px 0 20px;
   text-transform: lowercase;
-  color: #781125;
   color: #e81515;
   font-size: 2em;
   margin: 30px;
@@ -119,8 +118,6 @@ header .name{
 .information{
   width: 100%;
   text-align: center;
-  /*display: inline-block;
-  position: absolute;*/
 }
 
 .heading{
