@@ -1,6 +1,6 @@
 /* Survey page styles */
 
-.photo{
+.photo {
   width: 60%;
   padding: 10px;
 }
@@ -54,15 +54,18 @@ button:hover {
   cursor: pointer;
 }
 
+#yourName,
+#yourEmail,
+#confirmYourEmail,
 #email-signup {
   display: none;
 }
 
-.container{
+.container {
   text-align: center;
 }
 
-.newsletter{
+.newsletter {
   text-align: right;
 
 }
@@ -70,7 +73,7 @@ button:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
-  .photo{
+  .photo {
     width: 40%;
   }
 }
